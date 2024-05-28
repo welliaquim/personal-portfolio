@@ -1,0 +1,82 @@
+.title {
+  background: rgb(44, 44, 44);
+  background: linear-gradient(180deg, rgba(44, 44, 44, 1) 70%, rgba(74, 74, 74, 1) 98%, rgba(255, 255, 255, 1) 100%);
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 14rem 2rem;
+  z-index: 1;
+  color: aliceblue;
+}
+.title .profile {
+  width: 20rem;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.title_bio {
+  padding-top: 5rem;
+  text-align: center;
+}
+.title h1 {
+  font-size: xxx-large;
+}
+.title h2 {
+  font-size: x-large;
+}
+.cv,
+.contato {
+  height: 2rem;
+  width: 13rem;
+}
+.cv,
+.contato a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 0.3rem;
+}
+.whatsapp {
+  width: 16px;
+  filter: brightness(1000);
+}
+button {
+  background: transparent;
+  border: 2px solid rgb(193, 191, 191);
+  border-radius: 0.3rem;
+  color: white;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background: rgb(16, 183, 94);
+  transition: 0.3s ease-out;
+  color: black;
+}
+.contatos {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+@media screen and (min-width: 1099px) {
+  .title {
+    justify-content: center;
+    gap: 15rem;
+  }
+  .title h2 {
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .title {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title_bio {
+    padding-top: 2rem;
+  }
+}
