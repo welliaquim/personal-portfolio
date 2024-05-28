@@ -49,12 +49,12 @@ const Projects = () => {
               <h6 className="experience_text">{frameworks} </h6>
               <div className="experience_description">
                 <span className="experience_repo">
-                  <a href={linkRepo}>
+                  <a href={linkRepo} target="_blank">
                     <button className="experiencia_botao--repo">GitHub Repo</button>
                   </a>
                 </span>
                 <span className="experience_demo">
-                  <a href={linkLive}>
+                  <a href={linkLive} target="_blank">
                     <button className="experiencia_botao--demo">Live Demo</button>
                   </a>
                 </span>

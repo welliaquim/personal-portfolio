@@ -55,3 +55,22 @@ h6 {
 .experience_description button {
   padding: 0.2rem 4.2rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 475px) {
+  .experience {
+    padding: 3rem 0 0;
+  }
+  .projects_map {
+    width: 23rem;
+    padding: 0 0 2rem;
+  }
+  .experience_box,
+  .experience_img,
+  .experience_info,
+  .experience_description {
+    width: 100%;
+  }
+  .experience_description button {
+    padding: 0.1rem 1.5rem;
+  }
+}

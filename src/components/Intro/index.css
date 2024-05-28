@@ -80,3 +80,14 @@ button:hover {
     padding-top: 2rem;
   }
 }
+@media screen and (min-width: 726px) and (max-width: 1024px) {
+  .title_container {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .cv,
+  .contato {
+    width: 50%;
+  }
+}
