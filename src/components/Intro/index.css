@@ -1,18 +1,18 @@
 .title {
   background: rgb(44, 44, 44);
   background: linear-gradient(180deg, rgba(44, 44, 44, 1) 70%, rgba(74, 74, 74, 1) 98%, rgba(255, 255, 255, 1) 100%);
+  color: rgb(240, 248, 255);
   display: flex;
   gap: 3rem;
-  justify-content: space-evenly;
   height: 100%;
+  justify-content: space-evenly;
   padding: 14rem 2rem;
   z-index: 1;
-  color: aliceblue;
 }
 .title .profile {
-  width: 20rem;
-  border-radius: 50%;
   border: 1px solid white;
+  border-radius: 50%;
+  width: 20rem;
 }
 .title_bio {
   padding-top: 5rem;
@@ -31,27 +31,28 @@
 }
 .cv,
 .contato a {
-  display: flex;
-  justify-content: center;
   align-items: center;
   color: white;
+  display: flex;
   gap: 0.3rem;
+  justify-content: center;
 }
 .whatsapp {
-  width: 16px;
   filter: brightness(1000);
+  width: 16px;
 }
 button {
   background: transparent;
   border: 2px solid rgb(193, 191, 191);
   border-radius: 0.3rem;
   color: white;
+  cursor: pointer;
   transition: 0.3s ease-in;
 }
 button:hover {
   background: rgb(16, 183, 94);
-  transition: 0.3s ease-out;
   color: black;
+  transition: 0.3s ease-out;
 }
 .contatos {
   display: flex;
@@ -62,8 +63,8 @@ button:hover {
 
 @media screen and (min-width: 1099px) {
   .title {
-    justify-content: center;
     gap: 15rem;
+    justify-content: center;
   }
   .title h2 {
     font-size: xx-large;
@@ -72,9 +73,9 @@ button:hover {
 
 @media screen and (max-width: 725px) {
   .title {
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .title_bio {
     padding-top: 2rem;

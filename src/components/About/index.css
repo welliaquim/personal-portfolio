@@ -5,23 +5,23 @@
 }
 
 .about_container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   gap: 1rem;
+  text-align: center;
 }
 
 .school {
-  width: 10rem;
+  align-items: center;
   border: 2px solid rgb(155, 155, 155);
-  padding: 0.5rem 0 0.5rem;
   border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 0.3rem;
   margin-bottom: 2rem;
+  padding: 0.5rem 0 0.5rem;
+  width: 10rem;
 }
 
 .school p {
@@ -29,9 +29,9 @@
 }
 
 .school img {
-  width: 2rem;
-  height: 2rem;
   background: transparent;
+  height: 2rem;
+  width: 2rem;
 }
 
 .about_p {
@@ -43,8 +43,8 @@
 }
 
 p {
-  line-height: 1;
   font-size: 0.9rem;
+  line-height: 1;
 }
 
 h1 {
@@ -53,35 +53,35 @@ h1 {
 
 .skills_title {
   font-size: 1.8rem;
-  margin-top: 5rem;
   margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 .skills {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-bottom: 4rem;
 }
 
 .skills_box {
-  display: flex;
-  gap: 2rem;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-wrap: wrap-reverse;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .skills_box ul {
-  display: flex;
-  width: 8rem;
-  height: 4rem;
-  border: 1px solid rgb(155, 155, 155);
-  padding: 0.5rem;
-  justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  border: 2px solid rgb(155, 155, 155);
   border-radius: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  height: 4rem;
+  justify-content: center;
   margin-bottom: 3rem;
+  padding: 0.5rem;
+  width: 9rem;
 }
 
 .skills_img,
